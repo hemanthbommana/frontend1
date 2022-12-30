@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-session{
+    background-color: #000;
+    padding-bottom: 2em;
+}
+
+.header-path{
+    padding: 2em;
+}
+
+.list-items li{
+ list-style: none;
+ margin-left: 2em;
+ font-size: 16px;
+}
+
+.list-items li a{
+ text-decoration: none;
+}
+
+.landing-page{
+width: 90%;
+margin: auto;
+}
+
+.left-content {
+    font-size: 5em;
+    flex:1 1 0
+}
+
+.right-content{
+    flex:1 1 0;
+    margin: auto;
+}
+
+.second-left-content{
+flex: 1 1 0;
+}
+
+.second-right-content{
+    flex: 1 1 0;
+}
+
+.common-space{
+    margin: 4em;
+}
+
+.second-right-content > p{
+    font-size: 20px;
+}
+
+.common-heading > h1{
+    font-size: 3rem;
+    padding-bottom: 0.5em;
+}
+
+.common-card{
+    border: 1px solid;
+    flex: 1 1 0;
+    padding: 20px;
+}
+
+.common-card:nth-child(2){
+    margin: 0px 20px;
+}
+
+.common-card h2{
+    margin-bottom: 0.5em;
+}
+
+.footer-session{
+    background-color: #000;
+    height: 500px;
+    text-align:center
+}
+
+.footer-heading {
+    padding: 1em 0em;
+}
+
+.common-inputs input{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 16px 5px;
+    background-color: transparent;
+    border: 2px solid rgb(129, 129, 129);
+    border-radius: 3px;
+}
+
+.common-inputs input::placeholder{
+    color: #fff;
+}
+.submit-btn{
+    background-color: #ffff;
+    padding: 10px;
+    width: 150px;
+    position: absolute;
+    left: calc(100% - 90%);
+}
+
+/* Helping Class */
+.d-flex{
+    display: flex;
+}
+
+.nav-bar {
+box-sizing: border-box;
+
+position: fixed;
+width: 1473px;
+height: 87px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+border-bottom: 2px solid #FFFFFF;
+display: flex;
+}
+.bar1{
+    position: absolute;
+width: 160px;
+height: 29px;
+left: 38px;
+top: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.bar2{
+    position: absolute;
+width: 67px;
+height: 29px;
+left: 830px;
+top: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.bar3{
+    position: absolute;
+    width: 111px;
+    height: 29px;
+    left: 980px;
+    top: 29px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+.bar4{
+    position: absolute;
+    width: 144px;
+    height: 29px;
+    left: 1130px;
+    top: 29px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+.bar5{
+    position: absolute;
+    width: 127px;
+    height: 29px;
+    left: 1325px;
+    top: 29px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+.text-white{
+    color: #ffff;
+}
+
